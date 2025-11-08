@@ -14,7 +14,7 @@ export default function Navbar() {
           <span className="inline-flex size-9 items-center justify-center rounded-md bg-white/10 text-white">
             <Rocket className="size-5" />
           </span>
-          <span className="font-semibold tracking-tight">My 3D Portfolio</span>
+          <span className="font-semibold tracking-tight">Advait Bhoyar</span>
         </a>
 
         <nav className="hidden md:flex items-center gap-6 text-sm text-white/80">
@@ -27,7 +27,7 @@ export default function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/"
+            href="https://github.com/AdvaitBhoyar14"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-white/10 bg-white/5 px-3 py-2 text-white hover:bg-white/10"
@@ -36,7 +36,7 @@ export default function Navbar() {
             <Github className="size-5" />
           </a>
           <a
-            href="https://www.linkedin.com/"
+            href="https://linkedin.com/in/advait-bhoyar"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-white/10 bg-white/5 px-3 py-2 text-white hover:bg-white/10"

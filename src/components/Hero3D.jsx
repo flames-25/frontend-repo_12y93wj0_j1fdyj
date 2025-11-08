@@ -15,12 +15,13 @@ export default function Hero3D() {
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-28 md:pt-36">
         <div className="max-w-2xl">
-          <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
-            Crafting modern, playful, interactive experiences in 3D
+          <p className="text-white/70">Mumbai, India</p>
+          <h1 className="mt-2 text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
+            Hi, I’m Advait Bhoyar — building data‑driven, interactive web experiences
           </h1>
           <p className="mt-4 md:mt-6 text-lg md:text-xl text-white/80">
-            I’m a creative developer blending design and code to build immersive web apps,
-            delightful interfaces, and engaging brand moments.
+            MBA.Tech (Computer Engineering) student passionate about AI, analytics, and immersive front‑end.
+            I craft performant interfaces and intelligent tools that turn data into decisions.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -35,8 +36,16 @@ export default function Hero3D() {
               href="#contact"
               className="inline-flex items-center gap-2 rounded-md border border-white/20 bg-white/5 px-5 py-3 font-medium text-white hover:bg-white/10"
             >
-              Get in touch
+              Contact Me
             </a>
+          </div>
+
+          <div className="mt-6 flex flex-wrap gap-3 text-sm text-white/70">
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1">React</span>
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1">Tailwind</span>
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1">Python</span>
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1">AI/ML</span>
+            <span className="rounded-md border border-white/10 bg-white/5 px-2 py-1">SEO/Ads</span>
           </div>
         </div>
       </div>

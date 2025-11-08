@@ -2,27 +2,27 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Interactive Product Showcase",
+    title: "AI‑Driven Business Decision Support System",
     description:
-      "A 3D-powered product explorer with realtime lighting controls and camera paths.",
-    tags: ["Three.js", "Spline", "React"],
+      "Interactive dashboard to upload CSVs, auto‑profile datasets, visualize insights, and chat over findings.",
+    tags: ["React", "Tailwind", "Python", "Flask", "AI"],
     live: "#",
-    repo: "#",
+    repo: "https://github.com/AdvaitBhoyar14",
   },
   {
-    title: "Creative Dev Portfolio",
+    title: "Abstractive Text Summarization using BART",
     description:
-      "A performant portfolio with motion-first interactions, MDX content, and analytics.",
-    tags: ["Next.js", "Framer Motion", "MDX"],
+      "Fine‑tuned BART on CNN/DailyMail, optimized for ROUGE to produce concise, high‑quality summaries.",
+    tags: ["Python", "PyTorch", "NLP", "BART"],
     live: "#",
-    repo: "#",
+    repo: "https://github.com/AdvaitBhoyar14",
   },
   {
-    title: "Realtime Collaboration Tool",
+    title: "ggdc.in – Freelance Website",
     description:
-      "Canvas-based multiplayer whiteboard with presence, cursors, and comments.",
-    tags: ["WebRTC", "Canvas", "Tailwind"],
-    live: "#",
+      "Built and optimized a production website with best practices for SEO and performance.",
+    tags: ["WordPress", "SEO", "Web"],
+    live: "https://ggdc.in",
     repo: "#",
   },
 ];
@@ -34,7 +34,7 @@ export default function Projects() {
         <div className="mb-10 flex items-end justify-between">
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold tracking-tight">Selected Work</h2>
-            <p className="mt-2 text-white/70">Hand-picked projects that blend code, art, and performance.</p>
+            <p className="mt-2 text-white/70">Projects across AI, front‑end, and growth engineering.</p>
           </div>
         </div>
 
@@ -52,12 +52,16 @@ export default function Projects() {
                 ))}
               </div>
               <div className="mt-4 flex items-center gap-3">
-                <a href={p.live} className="inline-flex items-center gap-1 text-sm text-white hover:underline">
-                  <ExternalLink className="size-4" /> Live
-                </a>
-                <a href={p.repo} className="inline-flex items-center gap-1 text-sm text-white/80 hover:text-white">
-                  <Github className="size-4" /> Code
-                </a>
+                {p.live !== "#" && (
+                  <a href={p.live} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-white hover:underline">
+                    <ExternalLink className="size-4" /> Live
+                  </a>
+                )}
+                {p.repo !== "#" && (
+                  <a href={p.repo} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm text-white/80 hover:text-white">
+                    <Github className="size-4" /> Code
+                  </a>
+                )}
               </div>
             </div>
           ))}

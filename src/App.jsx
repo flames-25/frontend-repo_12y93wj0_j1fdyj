@@ -8,8 +8,8 @@ function Footer() {
   return (
     <footer className="border-t border-white/10 bg-black text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
-        <p className="text-white/60 text-sm">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
-        <div className="text-white/60 text-sm">Made with React, Tailwind & Spline</div>
+        <p className="text-white/60 text-sm">© {new Date().getFullYear()} Advait Bhoyar. All rights reserved.</p>
+        <div className="text-white/60 text-sm">Mumbai, India • Built with React, Tailwind & Spline</div>
       </div>
     </footer>
   );

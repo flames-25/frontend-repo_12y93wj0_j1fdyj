@@ -1,6 +1,9 @@
 import { Mail, Send } from "lucide-react";
 
 export default function Contact() {
+  const phone = "+918999480581";
+  const email = "advaitbhoyar1404@gmail.com";
+
   return (
     <section id="contact" className="relative py-20 bg-black text-white">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -11,7 +14,7 @@ export default function Contact() {
             </span>
             <div>
               <h2 className="text-2xl font-semibold">Let’s build something</h2>
-              <p className="text-white/70">Open for freelance, collaborations, and interesting problems.</p>
+              <p className="text-white/70">Open for freelance, internships, and collaborations.</p>
             </div>
           </div>
 
@@ -50,9 +53,17 @@ export default function Contact() {
             </button>
           </form>
 
-          <p className="mt-4 text-center text-sm text-white/60">
-            Or email me at <a href="mailto:hello@example.com" className="underline">hello@example.com</a>
-          </p>
+          <div className="mt-6 grid gap-2 text-sm text-white/70">
+            <p>
+              Phone: <a className="underline" href={`tel:${phone}`}>{phone}</a>
+            </p>
+            <p>
+              Email: <a className="underline" href={`mailto:${email}`}>{email}</a>
+            </p>
+            <p>
+              LinkedIn: <a className="underline" target="_blank" rel="noreferrer" href="https://linkedin.com/in/advait-bhoyar">linkedin.com/in/advait-bhoyar</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
